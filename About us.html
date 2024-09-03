@@ -963,7 +963,12 @@
 
                         <section id="bespoke">
                             <div class="wrapper"
-                                style="background-image:url(img/TNT\ \ why\ we\ are\ difference.png);">
+                                style="background-image:url(img/TNT\ \ why\ we\ are\ difference.png); @media (max-width: 767px) {
+        .wrapper {
+            height: 500px; /* Increase height for mobile */
+            background-size: contain; /* Ensure the full image is visible */
+        }
+    }">
                                 <a href="About us.html">
                                     <div class="cursor">DISCOVER</div>
                                 </a>
